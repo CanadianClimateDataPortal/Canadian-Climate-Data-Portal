@@ -1,0 +1,12 @@
+# Analyse des vagues de chaleur
+
+Les résultats de l'outil d'analyse des vagues de chaleur sont retournés dans un fichier zip qui, au téléchargement, contient trois fichiers csv. Ces fichiers contiennent le nombre d'épisodes de vague de chaleur, calculé selon vos seuils, pour chaque modèle climatique sur une base annuelle (chaque ligne représente une année) :
+1. *_360_day.csv - ce fichier contient les modèles ayant une année de 360 jours.
+2. *_noleap.csv - ce fichier contient les modèles ayant une année de 365 jours, et aucune année bissextile.
+3. *_propleptic_gregorian.csv - ce fichier contient les modèles qui ont 365 jours par an et chaque quatrième année est une année bissextile contenant 366 jours.
+
+La première colonne indique l'année, les deuxième et troisième colonnes la latitude et la longitude de l'endroit choisi et les colonnes suivantes indiquent les résultats pour chaque modèle climatique. Ces modèles sont identifiés à la première rangée.
+
+Voici la liste des modèles climatiques et des centres de modélisation: **BNU-ESM** par Beijing Normal University, **CCSM4** par US National Center for Atmospheric Research, **CESM1-CAM5** par NSF-DOE-NCAR, **CNRM-CM5** par Centre National de Recherches Météorologiques et Centre Européen de Recherche et Formation Avancées en Calcul Scientifique, **CSIRO-Mk3-6-0** par Queensland Climate Change Centre of Excellence and Commonwealth Scientific and Industrial Research Organisation, **CanESM2** par Canadian Centre for Climate Modelling and Analysis, **FGOALS-g2** par LASG (Institute of Atmospheric Physics) – CESS (Tsinghua University), **GFDL-CM3**, **GFDL-ESM2G** et **GFDL-ESM2M** par NOAA Geophysical Fluid Dynamics Laboratory, **HadGEM2-AO** et **HadGEM2-ES** par UK Met Office Hadley Centre, **IPSL-CM5A-LR** et **IPSL-CM5A-MR** par Institut Pierre Simon Laplace, **MIROC-ESM**, **MIROC-ESM-CHEM** et **MIROC5** par University of Tokyo, National Institute for Environmental Studies and Japan Agency for Marine-Earth Science and Technology, **MPI-ESM-LR** et **MPI-ESM-MR** par Max Planck Institute for Meteorology, **MRI-CGCM3** par Meteorological Research Institute, **NorESM1-M** et **NorESM1-ME** par Norwegian Climate Centre et **bcc-csm1-1** et **bcc-csm1-1-m** par Beijing Climate Centre, China Meteorological Administration.
+ 
+Le tableau 9.A.1 du chapitre 9 du cinquième rapport d'évaluation du GIEC fournit de plus amples détails et des références pour chacun des modèles climatiques : [Climate Change 2013: The Physical Science Basis](https://www.ipcc.ch/report/ar5/wg1). (Lien en anglais)
